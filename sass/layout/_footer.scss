@@ -62,11 +62,11 @@ margin-bottom: 9px;
 .footer .social-list-link{
     fill: #FFFFFF;
     background-color: rgba(255, 255, 255, 0.1);
-}
 
-.footer .social-list-link:hover,
-.footer .social-list-link:focus{
+    &:hover,
+    &:focus{
     background-color: var(--accent-color);
+}
 }
 
 .subscription{
@@ -84,15 +84,16 @@ margin-bottom: 9px;
     margin-right: 12px;
 
     transition: border-color 250ms var(--time-func);
-}
 
-.footer-form-input::placeholder{
-    padding-left: 16px;
-}
+    &::placeholder{
+        padding-left: 16px;
+    }
 
-.footer-form-input:focus{
-    outline: none;
-    border-color: var(--accent-color) ;
+    &:focus{
+        outline: none;
+        border-color: var(--accent-color) ;
+    }
+    
 }
 
 .subscript{
@@ -114,11 +115,11 @@ margin-bottom: 9px;
 
     transition: background-color 250ms var(--time-func);
 
-}
-
-.footer-modal-form-button:hover,
-.footer-modal-form-button:focus{
+    &:hover,
+    &:focus{
     background-color: #188CE8; 
+    }
+
 }
 
 .send-icon{
